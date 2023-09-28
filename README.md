@@ -1,2 +1,2 @@
 # Morocco-Final
-This is my final project for my Program of the Environment Morocco study abroad course. 
+This is my final project for my Program of the Environment Morocco study abroad course. This is my final project for my Program of the Environment Morocco study abroad course. I chose to make a creative project in the form of a data visualization app. This project provides an overview of the agricultural water usage of the top 6 agriculturally-reliant countries in the MENA region. Using the AQUASTAT Dissemination Systems dataset, we can compare Morocco's efforts towards water conservation with similar countries.
