@@ -9,7 +9,7 @@ ag_use = wd[wd['Variable'] == 'Agricultural water withdrawal as % of total renew
 extraneous = ['Unit', 'Symbol', 'Variable']
 ag_use = ag_use.drop(columns=extraneous)
 
-# Combining duplicate Country rows
+# Combining duplicate Country rows 
 ag_use = ag_use.groupby(['Country']).sum().reset_index()
 
 # Dropping years without data for all countries
@@ -18,8 +18,7 @@ ag_use = ag_use.drop(columns=nd)
 
 # Converting numeric columns to float
 numeric_columns = ag_use.columns[1:].tolist()
-ag_use[numeric_columns] = ag_use[numeric_columns].apply(
-    pd.to_numeric, errors='coerce')
+ag_use[numeric_columns] = ag_use[numeric_columns].apply(pd.to_numeric, errors='coerce')
 
 ag_use.set_index('Country', inplace=True)
 ag_use = ag_use.T

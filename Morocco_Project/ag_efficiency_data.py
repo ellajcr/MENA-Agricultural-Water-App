@@ -20,3 +20,4 @@ ind_use[numeric_columns] = ind_use[numeric_columns].apply(pd.to_numeric, errors=
 # Plotting the data
 ind_use.set_index('Country', inplace=True)
 ind_use = ind_use.T
+print(ind_use)
