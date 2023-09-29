@@ -1,6 +1,6 @@
 import pandas as pd
 
-from aquastat_data import water_data as wd
+from data.aquastat_data import water_data as wd
 
 # Filtering Water Stress
 water_stress = wd[wd['Variable'] == 'SDG 6.4.2. Water Stress']

@@ -1,6 +1,6 @@
 import pandas as pd
 
-from aquastat_data import water_data as wd
+from data.aquastat_data import water_data as wd
 
 # Filtering for agricultural water withdrawal
 ag_use = wd[wd['Variable'] == 'Agricultural water withdrawal as % of total renewable water resources']
