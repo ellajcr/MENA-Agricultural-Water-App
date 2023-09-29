@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load MENA data from AQUASTAT
-aquastat_data = pd.read_csv("AQUASTAT Dissemination System.csv", sep=",")
+aquastat_data = pd.read_csv("data/AQUASTAT Dissemination System.csv", sep=",")
 
 # Fix column names
 aquastat_data.columns = aquastat_data.columns.str.replace(
