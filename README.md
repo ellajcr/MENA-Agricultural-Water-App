@@ -3,6 +3,9 @@
 #### PoE Morocco: Sustainability, Agriculture, and Development
 #### Professor Kristi Straus
 #### Sept 29, 2023
+
+#### Link to app: https://mena-water.streamlit.app/
+
 This is my final project for the Program of the Environment Morocco study abroad course. I chose to make a creative project in the form of a data visualization app. This project provides an overview of the agricultural water usage of the top 6 agriculturally-reliant countries in the MENA region. 
 
 The MENA region (Middle East/North Africa) encompasses the historical Fertile Crescent, often considered as the cradle of agriculture. Early farmers developed various techniques to manage their water resources (Crabben). With the rising temperatures and frequent droughts of modern climate change, concerns over water conservation have intensified.
